@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		436B2FB918908F5B0062DC62 /* tempGIT.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B2FB818908F5B0062DC62 /* tempGIT.m */; };
 		43FE23D418908AC4002F55A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D318908AC4002F55A3 /* Foundation.framework */; };
 		43FE23D618908AC4002F55A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D518908AC4002F55A3 /* CoreGraphics.framework */; };
 		43FE23D818908AC4002F55A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D718908AC4002F55A3 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		436B2FB718908F5B0062DC62 /* tempGIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempGIT.h; sourceTree = "<group>"; };
+		436B2FB818908F5B0062DC62 /* tempGIT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempGIT.m; sourceTree = "<group>"; };
 		43FE23D018908AC4002F55A3 /* GitHubSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FE23D318908AC4002F55A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43FE23D518908AC4002F55A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				43FE23EC18908AC4002F55A3 /* ViewController.m */,
 				43FE23EE18908AC4002F55A3 /* Images.xcassets */,
 				43FE23DA18908AC4002F55A3 /* Supporting Files */,
+				436B2FB718908F5B0062DC62 /* tempGIT.h */,
+				436B2FB818908F5B0062DC62 /* tempGIT.m */,
 			);
 			path = GitHubSampleProject;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			files = (
 				43FE23ED18908AC4002F55A3 /* ViewController.m in Sources */,
 				43FE23E418908AC4002F55A3 /* AppDelegate.m in Sources */,
+				436B2FB918908F5B0062DC62 /* tempGIT.m in Sources */,
 				43FE23E018908AC4002F55A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +480,7 @@
 				43FE240718908AC4002F55A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43FE240818908AC4002F55A3 /* Build configuration list for PBXNativeTarget "GitHubSampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				43FE240A18908AC4002F55A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
