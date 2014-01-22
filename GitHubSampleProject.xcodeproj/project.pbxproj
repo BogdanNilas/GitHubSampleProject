@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		436B2FB918908F5B0062DC62 /* tempGIT.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B2FB818908F5B0062DC62 /* tempGIT.m */; };
+		436B2FBC189090470062DC62 /* nuevosFicheros.m in Sources */ = {isa = PBXBuildFile; fileRef = 436B2FBB189090470062DC62 /* nuevosFicheros.m */; };
 		43FE23D418908AC4002F55A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D318908AC4002F55A3 /* Foundation.framework */; };
 		43FE23D618908AC4002F55A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D518908AC4002F55A3 /* CoreGraphics.framework */; };
 		43FE23D818908AC4002F55A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FE23D718908AC4002F55A3 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		436B2FB718908F5B0062DC62 /* tempGIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempGIT.h; sourceTree = "<group>"; };
 		436B2FB818908F5B0062DC62 /* tempGIT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempGIT.m; sourceTree = "<group>"; };
+		436B2FBA189090470062DC62 /* nuevosFicheros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nuevosFicheros.h; sourceTree = "<group>"; };
+		436B2FBB189090470062DC62 /* nuevosFicheros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nuevosFicheros.m; sourceTree = "<group>"; };
 		43FE23D018908AC4002F55A3 /* GitHubSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FE23D318908AC4002F55A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43FE23D518908AC4002F55A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,6 +130,8 @@
 				43FE23DA18908AC4002F55A3 /* Supporting Files */,
 				436B2FB718908F5B0062DC62 /* tempGIT.h */,
 				436B2FB818908F5B0062DC62 /* tempGIT.m */,
+				436B2FBA189090470062DC62 /* nuevosFicheros.h */,
+				436B2FBB189090470062DC62 /* nuevosFicheros.m */,
 			);
 			path = GitHubSampleProject;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				43FE23ED18908AC4002F55A3 /* ViewController.m in Sources */,
 				43FE23E418908AC4002F55A3 /* AppDelegate.m in Sources */,
 				436B2FB918908F5B0062DC62 /* tempGIT.m in Sources */,
+				436B2FBC189090470062DC62 /* nuevosFicheros.m in Sources */,
 				43FE23E018908AC4002F55A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
